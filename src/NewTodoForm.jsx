@@ -22,7 +22,12 @@ export function NewTodoForm ({ onSubmit }) {
             id="item"
       />
     </div>
-    <button className="btn">Add</button>
+    <button className="btn glow-effect">Add 
+    <svg class="glow-container">
+      <rect pathLength="100" stroke-linecap="round" class="glow-blur"></rect>
+      <rect pathLength="100" stroke-linecap="round" class="glow-line"></rect>
+    </svg>
+    </button>
   </form>
     )
 }
